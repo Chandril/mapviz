@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9c8eef0ca0824c9fb5f7fc38bca9cf2e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9c8eef0ca0824c9fb5f7fc38bca9cf2e" ></div>
+        
+</body>
+<script>    
+    
+            var map_9c8eef0ca0824c9fb5f7fc38bca9cf2e = L.map(
+                "map_9c8eef0ca0824c9fb5f7fc38bca9cf2e",
+                {
+                    center: [51.493429, -0.169101],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+
+            
+
+        
+    
+            var tile_layer_b2e011d39f6b49c2886c67ec02048e34 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+            var circle_1ca2f45e93614082ab840ab834df99e9 = L.circle(
+                [51.493429, -0.169101],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_20616a439f13487cb989dd213c28662b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd072787f41b49eaa94342373bb5983b = $(`<div id="html_dd072787f41b49eaa94342373bb5983b" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_20616a439f13487cb989dd213c28662b.setContent(html_dd072787f41b49eaa94342373bb5983b);
+        
+
+        circle_1ca2f45e93614082ab840ab834df99e9.bindPopup(popup_20616a439f13487cb989dd213c28662b)
+        ;
+
+        
+    
+    
+            var circle_da0cadb311274ff4b974c33b8ac8bfe9 = L.circle(
+                [51.517931, -0.20083800000000002],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_224eada984b245ef83a79978fa7b98e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05961e46bd244b5b99b6b0774a7ee5ee = $(`<div id="html_05961e46bd244b5b99b6b0774a7ee5ee" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_224eada984b245ef83a79978fa7b98e0.setContent(html_05961e46bd244b5b99b6b0774a7ee5ee);
+        
+
+        circle_da0cadb311274ff4b974c33b8ac8bfe9.bindPopup(popup_224eada984b245ef83a79978fa7b98e0)
+        ;
+
+        
+    
+    
+            var circle_918bb20a9b2e475795b7efc371db58b1 = L.circle(
+                [51.487618, -0.188636],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_21b7aaf85dd54a7f9c4392f6db3d39f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_633473318c32426eb2e204cce348aaac = $(`<div id="html_633473318c32426eb2e204cce348aaac" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_21b7aaf85dd54a7f9c4392f6db3d39f8.setContent(html_633473318c32426eb2e204cce348aaac);
+        
+
+        circle_918bb20a9b2e475795b7efc371db58b1.bindPopup(popup_21b7aaf85dd54a7f9c4392f6db3d39f8)
+        ;
+
+        
+    
+    
+            var circle_f24a106f8a9c453b8e1ce95d00446e3b = L.circle(
+                [51.514325, -0.200259],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_c3aeba72c4f94a72802a7f944a632da1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9fefba8fa834338b2e27bcb02155eba = $(`<div id="html_f9fefba8fa834338b2e27bcb02155eba" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 1)</div>`)[0];
+            popup_c3aeba72c4f94a72802a7f944a632da1.setContent(html_f9fefba8fa834338b2e27bcb02155eba);
+        
+
+        circle_f24a106f8a9c453b8e1ce95d00446e3b.bindPopup(popup_c3aeba72c4f94a72802a7f944a632da1)
+        ;
+
+        
+    
+    
+            var circle_fec380b442254de78f000365fe0ecd67 = L.circle(
+                [51.497614, -0.183773],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_13d345c6ba1d43f28698276aa8098a7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37b6c9dd66e54bc0829262584cf05f5c = $(`<div id="html_37b6c9dd66e54bc0829262584cf05f5c" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 1)</div>`)[0];
+            popup_13d345c6ba1d43f28698276aa8098a7f.setContent(html_37b6c9dd66e54bc0829262584cf05f5c);
+        
+
+        circle_fec380b442254de78f000365fe0ecd67.bindPopup(popup_13d345c6ba1d43f28698276aa8098a7f)
+        ;
+
+        
+    
+    
+            var circle_d26179945b954093ad555fe13d79e28f = L.circle(
+                [51.483253000000005, -0.185496],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_14242b9d023244f0a823e2b399f05635 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f41cb72f392148ee92c478c956b0eb93 = $(`<div id="html_f41cb72f392148ee92c478c956b0eb93" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_14242b9d023244f0a823e2b399f05635.setContent(html_f41cb72f392148ee92c478c956b0eb93);
+        
+
+        circle_d26179945b954093ad555fe13d79e28f.bindPopup(popup_14242b9d023244f0a823e2b399f05635)
+        ;
+
+        
+    
+    
+            var circle_709f906ede6d4522a3dfdfe644a70c3a = L.circle(
+                [51.501567, -0.160418],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_c42a0f77587c49789caaab0f920a4364 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12088db8d4eb46df9a9746f9c3bbf027 = $(`<div id="html_12088db8d4eb46df9a9746f9c3bbf027" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 1)</div>`)[0];
+            popup_c42a0f77587c49789caaab0f920a4364.setContent(html_12088db8d4eb46df9a9746f9c3bbf027);
+        
+
+        circle_709f906ede6d4522a3dfdfe644a70c3a.bindPopup(popup_c42a0f77587c49789caaab0f920a4364)
+        ;
+
+        
+    
+    
+            var circle_1663844037764d3e81737a0897145937 = L.circle(
+                [51.523975, -0.213862],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_8c597eda99f742179d43e53c3517bf6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41c926703b53481091eaf6f0c5ed6a4f = $(`<div id="html_41c926703b53481091eaf6f0c5ed6a4f" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_8c597eda99f742179d43e53c3517bf6a.setContent(html_41c926703b53481091eaf6f0c5ed6a4f);
+        
+
+        circle_1663844037764d3e81737a0897145937.bindPopup(popup_8c597eda99f742179d43e53c3517bf6a)
+        ;
+
+        
+    
+    
+            var circle_b98f89d12dbb42478f0112124decd09a = L.circle(
+                [51.498077, -0.16156700000000002],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_5b52c13da4934de594ce344de85f1639 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d95463a6ef664f03ac30537f42fcc938 = $(`<div id="html_d95463a6ef664f03ac30537f42fcc938" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_5b52c13da4934de594ce344de85f1639.setContent(html_d95463a6ef664f03ac30537f42fcc938);
+        
+
+        circle_b98f89d12dbb42478f0112124decd09a.bindPopup(popup_5b52c13da4934de594ce344de85f1639)
+        ;
+
+        
+    
+    
+            var circle_36328b71bd6744d7b4195adbb41686ff = L.circle(
+                [51.505576, -0.19858699999999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_fd4016e1751d4e6fbd0aa71b6af7598f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8731a59cd7d146ada5a94a56ed5747c7 = $(`<div id="html_8731a59cd7d146ada5a94a56ed5747c7" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_fd4016e1751d4e6fbd0aa71b6af7598f.setContent(html_8731a59cd7d146ada5a94a56ed5747c7);
+        
+
+        circle_36328b71bd6744d7b4195adbb41686ff.bindPopup(popup_fd4016e1751d4e6fbd0aa71b6af7598f)
+        ;
+
+        
+    
+    
+            var circle_8dc88274de4044a88e192abdf84373de = L.circle(
+                [51.502028, -0.190082],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_d458ffa2a9f44ca4afc0545c1d182970 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c736054ede4143f580007f184b7a29bf = $(`<div id="html_c736054ede4143f580007f184b7a29bf" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 1)</div>`)[0];
+            popup_d458ffa2a9f44ca4afc0545c1d182970.setContent(html_c736054ede4143f580007f184b7a29bf);
+        
+
+        circle_8dc88274de4044a88e192abdf84373de.bindPopup(popup_d458ffa2a9f44ca4afc0545c1d182970)
+        ;
+
+        
+    
+    
+            var circle_7c3f6b2d07e241299d967a56e9fcc9e6 = L.circle(
+                [51.497037, -0.20468599999999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_abb668f5e33d4189bab618327c1b60b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10aae76abc454c64a2af27612511eab4 = $(`<div id="html_10aae76abc454c64a2af27612511eab4" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_abb668f5e33d4189bab618327c1b60b1.setContent(html_10aae76abc454c64a2af27612511eab4);
+        
+
+        circle_7c3f6b2d07e241299d967a56e9fcc9e6.bindPopup(popup_abb668f5e33d4189bab618327c1b60b1)
+        ;
+
+        
+    
+    
+            var circle_f141127782f545e9985668f1a47bd759 = L.circle(
+                [51.508884, -0.197303],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_deca19b8580c4107971601c20094768b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14c9704a60ea4bbe8b28b3dbe12ec438 = $(`<div id="html_14c9704a60ea4bbe8b28b3dbe12ec438" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_deca19b8580c4107971601c20094768b.setContent(html_14c9704a60ea4bbe8b28b3dbe12ec438);
+        
+
+        circle_f141127782f545e9985668f1a47bd759.bindPopup(popup_deca19b8580c4107971601c20094768b)
+        ;
+
+        
+    
+    
+            var circle_dd4a09a8029d40bf80c67a93dd8d6b70 = L.circle(
+                [51.51417, -0.20776],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_b835262b77474014b1e19e4cc13bc3be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_847f47ccc5b546edbda89ba9e48c16bc = $(`<div id="html_847f47ccc5b546edbda89ba9e48c16bc" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 1)</div>`)[0];
+            popup_b835262b77474014b1e19e4cc13bc3be.setContent(html_847f47ccc5b546edbda89ba9e48c16bc);
+        
+
+        circle_dd4a09a8029d40bf80c67a93dd8d6b70.bindPopup(popup_b835262b77474014b1e19e4cc13bc3be)
+        ;
+
+        
+    
+    
+            var circle_9e1bd57304fc4c3fb1420d5e8bcc5f76 = L.circle(
+                [51.516082, -0.20926999999999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_18d5f0ad4d7b49b8a2fefb3e32b997c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a2d37d8d4c54ae0b9b5614f85ed0c5f = $(`<div id="html_8a2d37d8d4c54ae0b9b5614f85ed0c5f" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 1)</div>`)[0];
+            popup_18d5f0ad4d7b49b8a2fefb3e32b997c4.setContent(html_8a2d37d8d4c54ae0b9b5614f85ed0c5f);
+        
+
+        circle_9e1bd57304fc4c3fb1420d5e8bcc5f76.bindPopup(popup_18d5f0ad4d7b49b8a2fefb3e32b997c4)
+        ;
+
+        
+    
+    
+            var circle_fa4cb2759a3343d3bbc06de78543bc01 = L.circle(
+                [51.481912, -0.18022],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_ae6b2b9ef4e74074bd4779270b34bd2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a34f22bf07140268bad498d169bc9be = $(`<div id="html_6a34f22bf07140268bad498d169bc9be" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 1)</div>`)[0];
+            popup_ae6b2b9ef4e74074bd4779270b34bd2d.setContent(html_6a34f22bf07140268bad498d169bc9be);
+        
+
+        circle_fa4cb2759a3343d3bbc06de78543bc01.bindPopup(popup_ae6b2b9ef4e74074bd4779270b34bd2d)
+        ;
+
+        
+    
+    
+            var circle_a7fd452a682c42688b866578c5a3a75b = L.circle(
+                [51.511448, -0.212046],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_aa8d3c5f4bb041d69e8809169e298bd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d336386608844c3a879feb2ec0fce01 = $(`<div id="html_1d336386608844c3a879feb2ec0fce01" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_aa8d3c5f4bb041d69e8809169e298bd0.setContent(html_1d336386608844c3a879feb2ec0fce01);
+        
+
+        circle_a7fd452a682c42688b866578c5a3a75b.bindPopup(popup_aa8d3c5f4bb041d69e8809169e298bd0)
+        ;
+
+        
+    
+    
+            var circle_1cc8df8d3e54408aab2e095c665ca4f9 = L.circle(
+                [51.481986, -0.173448],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_bea4d1b8e21e47e6b3b34b82e2591106 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ba46d0390dd46d3b11675d262467263 = $(`<div id="html_4ba46d0390dd46d3b11675d262467263" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_bea4d1b8e21e47e6b3b34b82e2591106.setContent(html_4ba46d0390dd46d3b11675d262467263);
+        
+
+        circle_1cc8df8d3e54408aab2e095c665ca4f9.bindPopup(popup_bea4d1b8e21e47e6b3b34b82e2591106)
+        ;
+
+        
+    
+    
+            var circle_93561aa38aef40a59ff38c1feec2a2f7 = L.circle(
+                [51.496019, -0.196947],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_f48d71c3f6964df095ddfc82e894a040 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b40551e156e4f5b8e9ffe3a6894b91f = $(`<div id="html_3b40551e156e4f5b8e9ffe3a6894b91f" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 1)</div>`)[0];
+            popup_f48d71c3f6964df095ddfc82e894a040.setContent(html_3b40551e156e4f5b8e9ffe3a6894b91f);
+        
+
+        circle_93561aa38aef40a59ff38c1feec2a2f7.bindPopup(popup_f48d71c3f6964df095ddfc82e894a040)
+        ;
+
+        
+    
+    
+            var circle_888c5f2f3cb34dc798e9377eca3fcbab = L.circle(
+                [51.507318, -0.194916],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_4489b480740b42d787dde2a23df2aa45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3106c51a31a44c82b206fa34ab2c5fa8 = $(`<div id="html_3106c51a31a44c82b206fa34ab2c5fa8" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 1)</div>`)[0];
+            popup_4489b480740b42d787dde2a23df2aa45.setContent(html_3106c51a31a44c82b206fa34ab2c5fa8);
+        
+
+        circle_888c5f2f3cb34dc798e9377eca3fcbab.bindPopup(popup_4489b480740b42d787dde2a23df2aa45)
+        ;
+
+        
+    
+    
+            var circle_8b6656883f204302b8bfd6ee3cbb06e0 = L.circle(
+                [51.511499, -0.197777],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_71eeb9d95d1f4297b41d567dc072afb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1602b8bada434cbaad72a07bd51fd4fd = $(`<div id="html_1602b8bada434cbaad72a07bd51fd4fd" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_71eeb9d95d1f4297b41d567dc072afb9.setContent(html_1602b8bada434cbaad72a07bd51fd4fd);
+        
+
+        circle_8b6656883f204302b8bfd6ee3cbb06e0.bindPopup(popup_71eeb9d95d1f4297b41d567dc072afb9)
+        ;
+
+        
+    
+    
+            var circle_1864404c82944d11b32180963c36c46e = L.circle(
+                [51.492652, -0.200249],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_b093c9c756864296a71b6470c07b5e1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77d1410f519c4a158b1c075f0f3e3d5f = $(`<div id="html_77d1410f519c4a158b1c075f0f3e3d5f" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 1)</div>`)[0];
+            popup_b093c9c756864296a71b6470c07b5e1c.setContent(html_77d1410f519c4a158b1c075f0f3e3d5f);
+        
+
+        circle_1864404c82944d11b32180963c36c46e.bindPopup(popup_b093c9c756864296a71b6470c07b5e1c)
+        ;
+
+        
+    
+    
+            var circle_826954a7b81347fdaa95c63b55d63278 = L.circle(
+                [51.491137, -0.16055],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_de75c4b267f84a8a93ffd927d23e51d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cc8f6b775c6468e9a972a6608470514 = $(`<div id="html_1cc8f6b775c6468e9a972a6608470514" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_de75c4b267f84a8a93ffd927d23e51d0.setContent(html_1cc8f6b775c6468e9a972a6608470514);
+        
+
+        circle_826954a7b81347fdaa95c63b55d63278.bindPopup(popup_de75c4b267f84a8a93ffd927d23e51d0)
+        ;
+
+        
+    
+    
+            var circle_a50801998fa14fd7b08bd2b6ef370e7e = L.circle(
+                [51.48785, -0.18041600000000002],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_11ca7c1499f84fe3b73bc7297d8bed9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d234a1da28f94b999833e3f1f0c7fc52 = $(`<div id="html_d234a1da28f94b999833e3f1f0c7fc52" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_11ca7c1499f84fe3b73bc7297d8bed9e.setContent(html_d234a1da28f94b999833e3f1f0c7fc52);
+        
+
+        circle_a50801998fa14fd7b08bd2b6ef370e7e.bindPopup(popup_11ca7c1499f84fe3b73bc7297d8bed9e)
+        ;
+
+        
+    
+    
+            var circle_b15d446cb81c4927a09d8bafe630e1a4 = L.circle(
+                [51.486426, -0.16981400000000002],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_ea909c41c50849ad8c75a41da86de2f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5931502600d4477f9a97d3879da1aafc = $(`<div id="html_5931502600d4477f9a97d3879da1aafc" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_ea909c41c50849ad8c75a41da86de2f9.setContent(html_5931502600d4477f9a97d3879da1aafc);
+        
+
+        circle_b15d446cb81c4927a09d8bafe630e1a4.bindPopup(popup_ea909c41c50849ad8c75a41da86de2f9)
+        ;
+
+        
+    
+    
+            var circle_8806e5fc72b4491da8f015c58e418230 = L.circle(
+                [51.502278000000004, -0.188775],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_cdf0272deba84588ae7a11168b538cc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34ba57dec6354c0eac8d725f2480c14d = $(`<div id="html_34ba57dec6354c0eac8d725f2480c14d" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 2)</div>`)[0];
+            popup_cdf0272deba84588ae7a11168b538cc5.setContent(html_34ba57dec6354c0eac8d725f2480c14d);
+        
+
+        circle_8806e5fc72b4491da8f015c58e418230.bindPopup(popup_cdf0272deba84588ae7a11168b538cc5)
+        ;
+
+        
+    
+    
+            var circle_a3f5bb03a6d7431694d3da01741e237b = L.circle(
+                [51.501694, -0.185916],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_046b5ff9f8334cfb9a4a15ce70d3ea7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_558f085ef676477c8928ad5971f230f5 = $(`<div id="html_558f085ef676477c8928ad5971f230f5" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 1)</div>`)[0];
+            popup_046b5ff9f8334cfb9a4a15ce70d3ea7f.setContent(html_558f085ef676477c8928ad5971f230f5);
+        
+
+        circle_a3f5bb03a6d7431694d3da01741e237b.bindPopup(popup_046b5ff9f8334cfb9a4a15ce70d3ea7f)
+        ;
+
+        
+    
+    
+            var circle_f966a2635c294599ad73fe705cd9ee44 = L.circle(
+                [51.515747999999995, -0.21692199999999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_52e1322b4387403e95195bc232ad8569 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_236e11b41d9a402f9d7b6d3bb60b27f5 = $(`<div id="html_236e11b41d9a402f9d7b6d3bb60b27f5" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 1)</div>`)[0];
+            popup_52e1322b4387403e95195bc232ad8569.setContent(html_236e11b41d9a402f9d7b6d3bb60b27f5);
+        
+
+        circle_f966a2635c294599ad73fe705cd9ee44.bindPopup(popup_52e1322b4387403e95195bc232ad8569)
+        ;
+
+        
+    
+    
+            var circle_7d4a42fa398e4c6b95fee4e3e1a23856 = L.circle(
+                [51.515838, -0.216919],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_ef90a49282084e14ad2ec6795707a733 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d210402bd9844417afd07d17cd742076 = $(`<div id="html_d210402bd9844417afd07d17cd742076" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 4)</div>`)[0];
+            popup_ef90a49282084e14ad2ec6795707a733.setContent(html_d210402bd9844417afd07d17cd742076);
+        
+
+        circle_7d4a42fa398e4c6b95fee4e3e1a23856.bindPopup(popup_ef90a49282084e14ad2ec6795707a733)
+        ;
+
+        
+    
+    
+            var circle_8a01da5402c34bb1bb4c3325a33c278c = L.circle(
+                [51.502161, -0.18705],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_9c8eef0ca0824c9fb5f7fc38bca9cf2e);
+        
+    
+        var popup_eb458d00a5c34630b073afdfae23c52d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c92119245dec46e3be959ab84a1fac60 = $(`<div id="html_c92119245dec46e3be959ab84a1fac60" style="width: 100.0%; height: 100.0%;">('number of vehicles involved:', 1)</div>`)[0];
+            popup_eb458d00a5c34630b073afdfae23c52d.setContent(html_c92119245dec46e3be959ab84a1fac60);
+        
+
+        circle_8a01da5402c34bb1bb4c3325a33c278c.bindPopup(popup_eb458d00a5c34630b073afdfae23c52d)
+        ;
+
+        
+    
+</script>
